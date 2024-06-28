@@ -1,0 +1,36 @@
+--Â¥À¼NPC
+--ÂíæçÃù
+--ÆÕÍ¨
+
+x001158_g_ScriptId	= 001158
+
+--**********************************
+--ÊÂ¼þ½»»¥Èë¿Ú
+--**********************************
+function x001158_OnDefaultEvent( sceneId, selfId, targetId )
+	BeginEvent( sceneId )
+		AddText( sceneId, "  Trong tây vñc, BÕch LÕc Ðà là thú cßÞi hiªm có. Trß¾c ðây chï có quý tµc m¾i cßÞi nhæng loÕi thú cao sang này. Nhßng gi¶ ðây thì lÕi khác, ngß¶i trong khu vñc này xem BÕch LÕc Ðà là thú cßÞi tßþng trßng cho sñ tài phú...#rTÕi hÕ ðây hi®n ðang có bán" )
+		AddNumText( sceneId, x001158_g_ScriptId, "Mua v§t cßÞi", 7, 1 )
+	EndEvent( sceneId )
+	DispatchEventList( sceneId, selfId, targetId )
+end
+
+--**********************************
+--ÊÂ¼þÁÐ±íÑ¡ÖÐÒ»Ïî
+--**********************************
+function x001158_OnEventRequest( sceneId, selfId, targetId )
+	local	key	= GetNumText()
+	if key == 1 then
+		DispatchShopItem( sceneId, selfId, targetId, 185 )
+	end
+end
+
+--**********************************
+--¶Ô»°¿òÌáÊ¾
+--**********************************
+function x001158_MsgBox( sceneId, selfId, targetId, msg )
+	BeginEvent( sceneId )
+		AddText( sceneId, msg )
+	EndEvent( sceneId )
+	DispatchEventList( sceneId, selfId, targetId )
+end

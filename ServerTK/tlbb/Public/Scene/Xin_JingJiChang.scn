@@ -1,0 +1,8 @@
+[System]
+navmapname=Xin_JingJiChang.nav
+monsterfile=Xin_JingJiChang_monster.ini
+patrolpoint=Xin_JingJiChang_patrolpoint.ini
+growpointdata=Xin_JingJiChang_growpoint.txt
+growpointsetup=Xin_JingJiChang_growpointsetup.txt
+eventfile=Xin_JingJiChang_area.ini
+petfile=Xin_JingJiChang_pet.ini

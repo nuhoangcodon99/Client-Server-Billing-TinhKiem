@@ -1,0 +1,17 @@
+INT	INT	INT	STRING
+index	isShow	mode	info$1$
+#<0>index	Ë÷Òı		
+#<1>isShow	ÊÇ·ñÏÔÊ¾		
+#<2>mode	·¢²¼Ä£Ê½£º0£¬ÆÕÍ¨Í¨¸æ£»1£¬ĞÇÆÚÍ¨¸æ¡¶NotifyWeek¡·£»2£¬ÈÕÆÚÍ¨¸æ¡¶NotifyDate¡·£»3£¬ÉúÈÕÍ¨¸æ£»4£¬µÇÂ¼Í¨¸æ£¨¸ñÊ½¹Ì¶¨£©		
+#<3>info	ÏûÏ¢ÄÚÈİ		
+#			
+0	1	0	#c33ff99Chào m×ng các hÕ ğªn v¾i trò ch½i Thiên Long Bát Bµ. M÷i thông tin th¡c m¡c v« trò ch½i các hÕ có th¬ xem · trang chü.
+1	1	4	#WTh¶i gian mà l¥n trß¾c các hÕ ğång nh§p là #cff0000%d/%d/%d lúc %d gi¶#W.
+2	0	0	Thông báo tÕm th¶i
+3	1	1	Mode 1: %d %d %d %d
+4	1	2	Mode 2: %d %d %d %d
+5	1	3	Hôm nay là sinh nh§t cüa các hÕ, chúc các hÕ sinh nh§t vui vë!
+#6	1	0	#GTên nhân v§t cüa GM : #Ygm
+#7	1	5	#WL¥n trß¾c trong tháng bÕn ğã ğång nh§p b¢ng IP #cff0000%d.%d.%d.%d#W
+8	1	0	#GTrang chü: #Yhttp://www.game4you.us
+9	1	0	#GHome page: #Yhttp://tl.game4you.us

@@ -1,0 +1,105 @@
+INT	INT	STRING	INT	INT	INT	STRING	INT	INT	STRING
+ID	RaceID	ShowName$1$	ÏûºÄÎïÆ·ID	ÏûºÄÎïÆ·ÊýÁ¿	ÊÇ·ñÔÚ³õÊ¼Ê±¿ÉÑ¡(0±íÊ¾ÓÎÏ·ÖÐ£¬³õÊ¼Ê±¶¼²»¿ÉÑ¡£¬1±íÊ¾Ö»ÓÐ³õÊ¼Ê±¿ÉÑ¡£¬2±íÊ¾Ö»ÓÐÔÚÓÎÏ·ÖÐ¿ÉÑ¡£¬3±íÊ¾ÓÎÏ·ÖÐ£¬³õÊ¼Ê±¶¼¿ÉÑ¡)	Í·ÏñµÄÍ¼±ê	ÏûºÄ½ðÇ®	GroupID	TitleInfo$1$
+1	0	Ði®p mµng	30008039	1	3	GirlProtagonist_1	50000	1	Ði®p mµng	13
+2	0	Nhßþc thüy	30008039	1	3	GirlProtagonist_2	50000	2	Nhßþc thüy	14
+3	0	Vân mi¬u	30008039	1	3	GirlProtagonist_3	50000	3	Vân mi¬u	15
+4	0	HuÏnh ho£c	30008039	1	3	GirlProtagonist_4	50000	4	HuÏnh ho£c	16
+5	0	U ðàm	30008039	1	3	GirlProtagonist_5	50000	5	U ðàm	17
+6	0	Ngßng quang	30008039	1	3	GirlProtagonist_6	50000	6	Ngßng quang	18
+7	0	Lan chï	30008039	1	3	GirlProtagonist_7	50000	7	Lan chï	19
+8	0	H°ng liên	30008039	1	3	GirlProtagonist_8	50000	8	H°ng liên	20
+9	0	Lßu Ly	30008039	1	3	GirlProtagonist_9	50000	9	Lßu Ly	21
+10	0	Dß½ng vû	30008039	1	3	GirlProtagonist_10	50000	10	Dß½ng vû	22
+11	0	Tiên linh	30008039	1	3	GirlProtagonist_11	50000	11	Tiên linh	23
+12	0	C¦m s¡t	30008039	1	3	GirlProtagonist_12	50000	12	C¦m s¡t	24
+13	1	Vân hoang	30008039	1	3	ManProtagonist_1	50000	13	Vân hoang	1
+14	1	Thanh phong	30008039	1	3	ManProtagonist_2	50000	14	Thanh phong	2
+15	1	CØu tiêu	30008039	1	3	ManProtagonist_3	50000	15	CØu tiêu	3
+16	1	Lßu Änh	30008039	1	3	ManProtagonist_4	50000	16	Lßu Änh	4
+17	1	Tinh h°n	30008039	1	3	ManProtagonist_5	50000	17	Tinh h°n	5
+18	1	Thanh sß½ng	30008039	1	3	ManProtagonist_6	50000	18	Thanh sß½ng	6
+19	1	Phong nhã	30008039	1	3	ManProtagonist_7	50000	19	Phong nhã	7
+20	1	Sóc phong	30008039	1	3	ManProtagonist_8	50000	20	Sóc phong	8
+21	1	Kim qua	30008039	1	3	ManProtagonist_9	50000	21	Kim qua	9
+22	1	TØ Khâm	30008039	1	3	ManProtagonist_10	50000	22	TØ Khâm	10
+23	1	Quy tà	30008039	1	3	ManProtagonist_11	50000	23	Quy tà	11
+24	1	Li®p dß½ng	30008039	1	3	ManProtagonist_12	50000	24	Li®p dß½ng	12
+25	0	Tâm liên	30008039	1	2	GirlProtagonist_13	50000	25	Tâm liên	29
+26	0	Huy«n nguy®t	30008039	1	2	GirlProtagonist_14	50000	26	Huy«n nguy®t	30
+27	0	Vong ßu	30008039	1	2	GirlProtagonist_15	50000	27	Vong ßu	31
+28	0	Tuyªt huÏnh	30008039	1	2	GirlProtagonist_16	50000	28	Tuyªt huÏnh	32
+29	1	HÕo thiên	30008039	1	2	ManProtagonist_13	50000	29	HÕo thiên	25
+30	1	HÕc mµng	30008039	1	2	ManProtagonist_14	50000	30	HÕc mµng	26
+31	1	Hành ca	30008039	1	2	ManProtagonist_15	50000	31	Hành ca	27
+32	1	Thß½ng lang	30008039	1	2	ManProtagonist_16	50000	32	Thß½ng lang	28
+33	0	Nhß ng÷c	30008039	1	2	GirlProtagonist_17	50000	33	Nhß ng÷c	37
+34	0	Tr¥m phi	30008039	1	2	GirlProtagonist_18	50000	34	Tr¥m phi	38
+35	0	Vân änh	30008039	1	2	GirlProtagonist_19	50000	35	Vân änh	39
+36	0	LÕc du	30008039	1	2	GirlProtagonist_20	50000	36	LÕc du	40
+37	1	Hàn ðß¶ng	30008039	1	2	ManProtagonist_17	50000	37	Hàn ðß¶ng	33
+38	1	MÕc ngôn	30008039	1	2	ManProtagonist_18	50000	38	MÕc ngôn	34
+39	1	Thß½ng dÕ	30008039	1	2	ManProtagonist_19	50000	39	Thß½ng dÕ	35
+40	1	Truy vân	30008039	1	2	ManProtagonist_20	50000	40	Truy vân	36
+41	0	Ngßng Lam	30008039	1	2	GirlProtagonist_21	50000	41	Ngßng Lam	43
+42	0	Nhßþc ¿u	30008039	1	2	GirlProtagonist_22	50000	42	Nhßþc ¿u	44
+43	1	M£c Hàn	30008039	1	2	ManProtagonist_21	50000	43	M£c Hàn	41
+44	1	MÕn Tinh	30008039	1	2	ManProtagonist_22	50000	44	MÕn Tinh	42
+45	1	Tß NgÕo	30008039	1	2	ManProtagonist_23	50000	45	Tß NgÕo	46
+46	0	Nghiên Nguy®t	30008039	1	2	GirlProtagonist_23	50000	46	Nghiên Nguy®t	45
+47	1	Mµc Phong	30008039	1	2	ManProtagonist_24	50000	47	Mµc Phong	48
+48	0	Linh San	30008039	1	2	GirlProtagonist_24	50000	48	Linh San	47
+49	0	Thanh Dînh	30008039	1	3	GirlProtagonist_25	50000	49	Thanh Dînh	52
+50	0	MÕch Nhã	30008039	1	3	GirlProtagonist1_1	50000	50	MÕch Nhã	53
+51	0	Linh Thù	30008039	1	3	GirlProtagonist1_2	50000	51	Linh Thù	54
+52	1	Côn Lôn	30008039	1	3	ManProtagonist_25	50000	52	Côn Lôn	49
+53	1	Tu® Linh	30008039	1	3	ManProtagonist1_1	50000	53	Tu® Linh	50
+54	1	C§t NgÕo	30008039	1	3	ManProtagonist1_2	50000	54	C§t NgÕo	51
+55	0	Thüy Bích	30008039	1	2	GirlProtagonist1_3	50000	55	Thüy Bích	56
+56	1	Khê Phong	30008039	1	2	ManProtagonist1_3	50000	56	Khê Phong	55
+57	0	Lam Hinh	30008039	1	2	GirlProtagonist1_4	50000	57	Lam Hinh	58
+58	1	Ni®m Sách	30008039	1	2	ManProtagonist1_4	50000	58	Ni®m Sách	57
+59	0	Mµ Hoa	30008039	1	2	GirlProtagonist1_5	50000	59	Mµ Hoa	60
+60	1	Vân Tiêu	30008039	1	2	ManProtagonist1_5	50000	60	Vân Tiêu	59
+61	0	TØ Phinh	30008039	1	2	GirlProtagonist1_6	50000	61	TØ Phinh	62
+62	1	Tà Mâu	30008039	1	2	ManProtagonist1_6	50000	62	Tà Mâu	61
+63	0	Chìm Nguy®t	30008039	1	2	GirlProtagonist1_7	50000	63	Chìm Nguy®t	64
+64	1	Ánh Sáng	30008039	1	2	ManProtagonist1_7	50000	64	Ánh Sáng	63
+65	0	Yên H°ng	30008039	1	2	GirlProtagonist1_8	50000	65	Yên H°ng	66
+66	1	MÕc Vân	30008039	1	2	ManProtagonist1_8	50000	66	MÕc Vân	65
+67	0	Th¸ NgÕo	30008039	1	2	GirlProtagonist1_9	50000	67	Th¸ NgÕo	68
+68	1	Lång Nhân	30008039	1	2	ManProtagonist1_9	50000	68	Lång Nhân	67
+69	0	Linh Tinh	30008039	1	2	GirlProtagonist1_10	50000	69	Linh Tinh	70
+70	1	Huyªt Nguy®t	30008039	1	2	ManProtagonist1_10	50000	70	Huyªt Nguy®t	69
+71	0	Khuynh Thành	30008039	1	2	GirlProtagonist1_11	50000	71	Khuynh Thành	72
+72	1	D§t Tiên	30008039	1	2	ManProtagonist1_11	50000	72	D§t Tiên	71
+73	0	Tiên Thù	30008039	1	2	GirlProtagonist1_12	50000	73	Tiên Thù	74
+74	1	Lçm NgÕo	30008039	1	2	ManProtagonist1_12	50000	74	Lçm NgÕo	73
+75	0	Ng÷c Ngân	30008039	1	2	GirlProtagonist1_13	50000	75	Ng÷c Ngân	76
+76	1	NgÕo Ngân	30008039	1	2	ManProtagonist1_13	50000	76	NgÕo Ngân	75
+77	0	Dao Tiên	30008039	1	2	GirlProtagonist1_14	50000	77	Dao Tiên	78
+78	1	Døc Th¥n	30008039	1	2	ManProtagonist1_14	50000	78	Døc Th¥n	77
+79	1	Ki«u Phong	30008039	1	2	ManProtagonist2_1	50000	79	Ki«u Phong	80
+80	1	Ki«u Phong 2	30008039	1	2	ManProtagonist2_2	50000	80	Ki«u Phong 2	79
+81	1	Ki«u Phong 3	30008039	1	2	ManProtagonist2_3	50000	81	Ki«u Phong 3	82
+82	1	Hß Trúc	30008039	1	2	ManProtagonist2_4	50000	82	Hß Trúc	81
+83	1	Hß Trúc 2	30008039	1	2	ManProtagonist2_5	50000	83	Hß Trúc 2	84
+84	1	Hß Trúc 3	30008039	1	2	ManProtagonist2_6	50000	84	Hß Trúc 3	83
+85	1	Ðoàn Dñ	30008039	1	2	ManProtagonist2_7	50000	85	Ðoàn Dñ	86
+86	1	Ðoàn Dñ 2	30008039	1	2	ManProtagonist2_8	50000	86	Ðoàn Dñ 2	85
+87	1	Ðoàn Dñ 3	30008039	1	2	ManProtagonist2_9	50000	87	Ðoàn Dñ 3	88
+88	0	A Châu	30008039	1	2	ManProtagonist2_10	50000	88	A Châu	87
+89	0	A Châu 2	30008039	1	2	ManProtagonist2_11	50000	89	A Châu 2	90
+90	0	A Châu 3	30008039	1	2	ManProtagonist2_12	50000	90	A Châu 3	89
+91	0	A TØ	30008039	1	2	ManProtagonist2_13	50000	91	A TØ	92
+92	0	A TØ 2	30008039	1	2	ManProtagonist2_14	50000	92	A TØ 2	91
+93	0	A TØ 3	30008039	1	2	ManProtagonist2_15	50000	93	A TØ 3	94
+94	0	Ngæ Yên	30008039	1	2	ManProtagonist2_16	50000	94	Ngæ Yên	93
+95	0	Ngæ Yên 2	30008039	1	2	ManProtagonist2_17	50000	95	Ngæ Yên 2	96
+96	0	Ngæ Yên 3	30008039	1	2	ManProtagonist2_18	50000	96	Ngæ Yên 3	95
+97	0	Uy¬n Thanh	30008039	1	2	ManProtagonist2_19	50000	97	Uy¬n Thanh	98
+98	0	Uy¬n Thanh 2	30008039	1	2	ManProtagonist2_20	50000	98	Uy¬n Thanh 2	97
+99	0	Uy¬n Thanh 3	30008039	1	2	ManProtagonist2_21	50000	99	Uy¬n Thanh 3	100
+100	1	Mµ Dung Phøc	30008039	1	2	ManProtagonist2_22	50000	100	Mµ Dung Phøc	99
+101	1	Mµ Dung Phøc 2	30008039	1	2	ManProtagonist2_23	50000	101	Mµ Dung Phøc 2	102
+102	1	Mµ Dung Phøc 3	30008039	1	2	ManProtagonist2_24	50000	102	Mµ Dung Phøc 3	101
+

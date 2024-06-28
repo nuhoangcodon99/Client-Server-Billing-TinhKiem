@@ -1,0 +1,4 @@
+[System]
+navmapname=PhoenixMaze.nav
+monsterfile=PhoenixMaze_monster.ini
+eventfile=PhoenixMaze_area.ini

@@ -1,0 +1,9 @@
+[System]
+navmapname=SongLiaoWar.nav
+monsterfile=SongLiaoWar_monster.ini
+patrolpoint=SongLiaoWar_patrolpoint.ini
+growpointdata=SongLiaoWar_growpoint.txt
+growpointsetup=SongLiaoWar_growpointsetup.txt
+eventfile=SongLiaoWar_area.ini
+platformfile=SongLiaoWar_platform.ini
+

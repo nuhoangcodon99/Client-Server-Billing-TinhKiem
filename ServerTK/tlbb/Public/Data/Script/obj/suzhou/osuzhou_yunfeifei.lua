@@ -1,0 +1,254 @@
+--À’÷›NPC
+--‘∆ˆ≠ˆ≠
+--“ª∞„
+
+--Ω≈±æ∫≈
+x001050_g_ScriptId	= 001050
+
+x001050_g_shoptableindex	= 27
+
+x001050_g_eventList	= { 800103, 800104 , 800106, 800101, 800102, 800108}
+x001050_g_miscEventId = 311111;
+
+x001050_g_key				= {}
+x001050_g_key["buy"]= 0		--π∫¬Ú’‰ ﬁ”√∆∑
+x001050_g_key["ask"]= 1		--≤È—Ø’‰ ﬁ≥…≥§¬ 
+x001050_g_key["rep"]= 2		--»∑»œ≤È—Ø
+x001050_g_key["i_pc"]= 5		--∑¢≤º’˜”—–≈œ¢ ±ÿ–Ë=5
+x001050_g_key["ask_pc"]= 6		--’˜”— ±ÿ–Ë=6
+x001050_g_key["ask_prcr"]= 7		--≤È—Ø∑±÷≥µƒ’‰ ﬁ
+x001050_g_key["pet_help"]= 10		--’‰ ﬁœ‡πÿΩÈ…‹
+x001050_g_key["pet_help_savvy"]= 11		--Ã·…˝’‰ ﬁŒÚ–‘ΩÈ…‹
+x001050_g_key["pet_help_prcr"]= 12		--’‰ ﬁ∑±÷≥ΩÈ…‹
+
+--**********************************
+-- ¬º˛Ωªª•»Îø⁄
+--**********************************
+function x001050_OnDefaultEvent( sceneId, selfId,targetId )
+	BeginEvent( sceneId )
+		AddText( sceneId, "#{OBJ_suzhou_0019}" )
+		
+		AddNumText( sceneId, x001050_g_ScriptId, "Giæi thiÆu liÍn quan v´ tr‚n th˙", 11, x001050_g_key["pet_help"] )
+		
+		AddNumText( sceneId, x001050_g_ScriptId, "Mua ∞ d˘ng cho tr‚n th˙", 7, x001050_g_key["buy"] )
+		AddNumText( sceneId, x001050_g_ScriptId, "Ki¨m tra m—c tÂng trﬂ∑ng", 6, x001050_g_key["ask"] )
+		AddNumText(sceneId,x001050_g_ScriptId,"–ﬂa thÙng tin k™t b’n",6,x001050_g_key["i_pc"])
+		AddNumText(sceneId,x001050_g_ScriptId,"K™t b’n",6,x001050_g_key["ask_pc"])
+		
+		CallScriptFunction( 800101, "OnEnumerate", sceneId, selfId, targetId )
+		CallScriptFunction( 800102, "OnEnumerate", sceneId, selfId, targetId )
+		
+		AddNumText(sceneId,x001050_g_ScriptId,"Ki¨m tra µ sinh s‰n",6,x001050_g_key["ask_prcr"])
+
+		CallScriptFunction( 800103, "OnEnumerate", sceneId, selfId, targetId )
+		CallScriptFunction( 800104, "OnEnumerate", sceneId, selfId, targetId )
+		CallScriptFunction( 800106, "OnEnumerate", sceneId, selfId, targetId )
+		CallScriptFunction( 800108, "OnEnumerate", sceneId, selfId, targetId )
+
+	EndEvent( sceneId )
+	DispatchEventList( sceneId, selfId, targetId )
+end
+
+--**********************************
+-- ¬º˛¡–±Ì—°÷–“ªœÓ
+--**********************************
+function x001050_OnEventRequest( sceneId, selfId, targetId, eventId )
+	if eventId == x001050_g_ScriptId then
+		local key	= GetNumText()
+		if key == x001050_g_key["pet_help"] then
+			BeginEvent(sceneId)	
+				AddNumText( sceneId, x001050_g_ScriptId, "Giæi thiÆu n‚ng cao ngµ tÌnh", 11, x001050_g_key["pet_help_savvy"] )
+				AddNumText(sceneId, x001050_g_ScriptId,"Giæi thiÆu tr‚n th˙ sinh s‰n",11,x001050_g_key["pet_help_prcr"]);
+			EndEvent(sceneId)
+			DispatchEventList(sceneId,selfId,targetId)
+			return
+		elseif key == x001050_g_key["pet_help_savvy"] then
+			BeginEvent(sceneId)	
+				AddText( sceneId, "#{function_help_059}" )
+			EndEvent(sceneId)
+			DispatchEventList(sceneId,selfId,targetId)
+			return
+		elseif key == x001050_g_key["pet_help_prcr"] then
+			BeginEvent(sceneId)						
+				AddText(sceneId,"#{function_help_057}#r")
+			EndEvent(sceneId)
+			DispatchEventList(sceneId,selfId,targetId)
+			return
+		--π∫¬Ú’‰ ﬁ”√∆∑
+		elseif key == x001050_g_key["buy"] then
+			DispatchShopItem( sceneId, selfId,targetId, x001050_g_shoptableindex )
+
+		--≤È—Ø’‰ ﬁ≥…≥§¬ 
+		elseif key == x001050_g_key["ask"] then
+--			BeginEvent( sceneId )
+--			AddText( sceneId, " ≤È—Ø“ª¥Œ–Ë“™ ’»°#{_MONEY100}µƒ∑—”√°£" ) -- zchw
+--			AddNumText( sceneId, x001050_g_ScriptId, "»∑∂®", -1, x001050_g_key["rep"] )
+--			EndEvent( sceneId )
+--			DispatchEventList( sceneId, selfId, targetId )
+
+		--»∑»œ≤È—Ø
+--		elseif key == x001050_g_key["rep"] then
+			x001050_OnConfirm( sceneId, selfId, targetId )
+		--∑¢≤º’˜”—–≈œ¢/’˜”—
+		elseif key == x001050_g_key["i_pc"] or key == x001050_g_key["ask_pc"] then
+			local sel = GetNumText();
+			CallScriptFunction( x001050_g_miscEventId, "OnEnumerate",sceneId, selfId, targetId, sel)
+		--»∑»œ≤È—Ø
+		elseif key == x001050_g_key["ask_prcr"] then
+			LuaFnGetPetProcreateInfo(sceneId, selfId);
+		else
+		end
+
+	--∆‰À˚ ¬º˛
+	else
+		for i, findId in x001050_g_eventList do
+			if eventId == findId then
+				CallScriptFunction( eventId, "OnDefaultEvent", sceneId, selfId, targetId )
+				return
+			end
+		end
+	end
+end
+
+--**********************************
+--»∑»œ≤È—Ø
+--**********************************
+function x001050_OnConfirm( sceneId, selfId, targetId )
+	BeginUICommand( sceneId )
+		UICommand_AddInt( sceneId, targetId )
+		UICommand_AddInt( sceneId, 6 )				--’‰ ﬁ≤È—Ø∑÷÷ß
+	EndUICommand( sceneId )
+	DispatchUICommand( sceneId, selfId, 3 )	--µ˜”√’‰ ﬁΩÁ√Ê
+end
+
+--**********************************
+--≤È—Ø’‰ ﬁ≥…≥§¬ 
+--**********************************
+function x001050_OnInquiryForGrowRate( sceneId, selfId, petHid, petLid )
+--local	num		= LuaFnGetPetCount( sceneId, selfId )
+--if num <= 0 or index < 0 or index >= num then
+--	x001050_MsgTip( sceneId, selfId, "  ∂‘≤ª∆£¨ƒ˙√ª”–—°‘Ò’‰ ﬁ£°" )
+--	return 0
+--end
+
+	-- »Áπ˚’‚∏ˆ’‰ ﬁ“—æ≠≤È—Øπ˝…˙≥§¬ £¨æÕ∏¯ÕÊº““ª∏ˆÃ· æ£¨»ª∫Û≤ª‘⁄ø€∂´Œ˜¡À
+	if LuaFnIsPetGrowRateByGUID(sceneId, selfId, petHid, petLid) > 0   then
+		BeginEvent( sceneId )
+			AddText( sceneId, "Tr‚n th˙ n‡y t◊ng ki¨m tra µ tÂng trﬂ∑ng r∞i." )
+		EndEvent( sceneId )
+		DispatchMissionTips( sceneId, selfId )
+		
+		return
+	end
+	
+	local PlayerMoney = GetMoney( sceneId, selfId ) +  GetMoneyJZ(sceneId, selfId)  --Ωª◊”∆’º∞ Vega
+	if PlayerMoney < 100 then
+		x001050_MsgTip( sceneId, selfId, "   Xin l≤i, ng‚n lﬂ˛ng trÍn ngﬂ∂i c·c h’ khÙng ¸ #{_EXCHG100}£°" )
+		return 0
+	end
+
+	local	lev		= LuaFnGetPetLevelByGUID( sceneId, selfId, petHid, petLid )
+	if lev < 1 then -- zchw 
+		x001050_MsgTip( sceneId, selfId, "  Xin l≤i, chÔ cÛ th¨ ki¨m tra µ tÂng trﬂ∑ng c¸a tr‚n th˙ t◊ c§p 10 tr∑ lÍn" )
+		return 0
+	end
+
+	--ø€≥˝Ω«Æ
+	local costJ , costM = LuaFnCostMoneyWithPriority( sceneId, selfId, 100 )		--Ωª◊”∆’º∞ Vega
+	if costM ~= nil and costJ ~= nil then
+		if costJ > 0 then
+			local str = format("ƒ„ª®∑—¡À#{_EXCHG%d}",costJ ) 
+			Msg2Player( sceneId, selfId, str, MSG2PLAYER_PARA )
+		end
+		if costM > 0 then
+			local str = format("ƒ„ª®∑—¡À#{_MONEY%d}",costM ) 
+			Msg2Player( sceneId, selfId, str, MSG2PLAYER_PARA )
+		end
+		Msg2Player( sceneId, selfId, "”√”⁄≤È—Ø’‰ ﬁµƒ≥…≥§¬ °£", MSG2PLAYER_PARA )
+	else
+		return
+	end
+
+	local	nGrowLevel	= LuaFnGetPetGrowRateByGUID( sceneId, selfId, petHid, petLid )
+	local	strTbl			= { "SΩ c§p", "Xu§t s°c", "KiÆt xu§t", "Tr·c viÆt", "To‡n m€" }
+	if( nGrowLevel < 1 or nGrowLevel > getn( strTbl ) ) then
+		nGrowLevel				= 1
+	end
+	local	strLevel		= strTbl[nGrowLevel]
+
+	--Ω´ªÒ»° ˝æ›¥´∏¯Client
+	BeginUICommand( sceneId )
+		UICommand_AddString( sceneId, "key="..1 )						--πÿº¸◊÷£¨1±Ì æ≥…π¶÷¥––
+		UICommand_AddString( sceneId, "rat="..nGrowLevel )	--≥…≥§¬ 
+		UICommand_AddString( sceneId, "gld="..100 )					--ª®∑—Ω«Æ
+	EndUICommand( sceneId )
+	DispatchUICommand( sceneId, selfId, 4 )
+	
+	--µ±≤È—Øµƒ’‰ ﬁŒ™±¶±¶°¢±‰“Ï£¨≤¢«“≥…≥§¬ ≤È—ØΩ·π˚ «3°¢4ªÚ5 ±£¨∑¢≤º ¿ΩÁπ´∏Ê
+	local	rnd			= random( 4 )
+	local	msg			= {}
+	local	typ			= LuaFnGetPetTypeByGUID( sceneId, selfId, petHid, petLid )
+	if( nGrowLevel >= 4 and nGrowLevel <= 5 and typ ~= 2 ) then -- zchw
+		if ( sceneId == 1 ) then		--À’÷›NPC
+			msg[1]	= format( "#W#{_INFOUSR%s}#{GLBB_1_A}#Y%s#Iµƒ#{_INFOMSG%s}£°",
+				GetName( sceneId, selfId ),
+				strLevel,
+				LuaFnGetPetTransferByGUID( sceneId, selfId, petHid, petLid ) )
+			msg[2]	= format( "#W#{_INFOUSR%s}#{GLBB_2_A}#{_INFOMSG%s}#{GLBB_2_B}#Y%s#I#{GLBB_2_C}",
+				GetName( sceneId, selfId ),
+				LuaFnGetPetTransferByGUID( sceneId, selfId, petHid, petLid ),
+				strLevel )
+			msg[3]	= format( "#I“ªÎb#{_INFOMSG%s}#{GLBB_3_A}#Y%s#I#{GLBB_3_B}#{_INFOUSR%s}#{GLBB_3_C}",
+				LuaFnGetPetTransferByGUID( sceneId, selfId, petHid, petLid ),
+				strLevel,
+				GetName( sceneId, selfId ) )
+			msg[4]	= format( "#W#{_INFOUSR%s}#{GLBB_4_A}#{_INFOMSG%s}#{GLBB_4_B}#Y%s#I#{GLBB_4_C}",
+				 GetName( sceneId, selfId ),
+				 LuaFnGetPetTransferByGUID( sceneId, selfId, petHid, petLid ),
+				 strLevel )
+			--»´«Úπ´∏Ê
+			AddGlobalCountNews( sceneId, msg[rnd] )
+		elseif ( sceneId == 0 ) then			--¬Â—ÙNPC
+			msg[1]	= format( "#W#{_INFOUSR%s}#{LLBB_1_A}#Y%s#Iµƒ#{_INFOMSG%s}£°",
+				GetName( sceneId, selfId ),
+				strLevel,
+				LuaFnGetPetTransferByGUID( sceneId, selfId, petHid, petLid ) )
+			msg[2]	= format( "#W#{_INFOUSR%s}#{LLBB_2_A}#{_INFOMSG%s}#{LLBB_2_B}#Y%s#I#{LLBB_2_C}",
+				GetName( sceneId, selfId ),
+				LuaFnGetPetTransferByGUID( sceneId, selfId, petHid, petLid ),
+				strLevel )
+			msg[3]	= format( "#I“ªÎb#{_INFOMSG%s}#{LLBB_3_A}#Y%s#I#{LLBB_3_B}#{_INFOUSR%s}#{LLBB_3_C}",
+				LuaFnGetPetTransferByGUID( sceneId, selfId, petHid, petLid ),
+				strLevel,
+				GetName( sceneId, selfId ) )
+			msg[4]	= format( "#W#{_INFOUSR%s}#{LLBB_4_A}#{_INFOMSG%s}#{LLBB_4_B}#Y%s#I#{LLBB_4_C}",
+				 GetName( sceneId, selfId ),
+				 LuaFnGetPetTransferByGUID( sceneId, selfId, petHid, petLid ),
+				 strLevel )
+			--»´«Úπ´∏Ê
+			AddGlobalCountNews( sceneId, msg[rnd] )
+		end
+	end
+
+	return 1
+end
+
+--**********************************
+--∂‘ª∞¥∞ø⁄–≈œ¢Ã· æ
+--**********************************
+function x001050_MsgBox( sceneId, selfId, targetId, msg )
+	BeginEvent( sceneId )
+		AddText( sceneId, msg )
+	EndEvent( sceneId )
+	DispatchEventList( sceneId, selfId, targetId )
+end
+
+--**********************************
+--–—ƒøœµÕ≥–≈œ¢Ã· æ
+--**********************************
+function x001050_MsgTip( sceneId, selfId, msg )
+	BeginEvent( sceneId )
+		AddText( sceneId, msg )
+	EndEvent( sceneId )
+	DispatchMissionTips( sceneId, selfId )
+end

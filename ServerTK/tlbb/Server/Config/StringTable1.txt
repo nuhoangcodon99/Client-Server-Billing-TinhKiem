@@ -1,0 +1,312 @@
+INT	STRING
+ID	×Ö·û´®$1$
+0	You were %s killed!
+1	You slained him %s, because he murdered too much, which deserve to be punished. His equipments fell out near here, looking for it!
+2	@*;SrvMsg;GLD:Our Guild's trader #{_INFOUSR%s} was unfortunately killed and robbed when doing the trading mission#{_INFOUSR%s} by members of the Guild #G[%s]#W, the money#{_MONEY%d} of the bank and the trading item have lost, so distasteful.
+3	@*;SrvMsg;GLD:Our Guild's trader #{_INFOUSR%s}when doing the trading mission was unfortunately #{_INFOUSR%s} killed. Banknote's value and trading item #{_MONEY%d} have lost, 
+4	Unidentified assault, you are currently under defensive status!
+5	Item was locked, cannot appraise!
+6	Back to trading table!
+7	Inventory
+8	Being tired, cannot receive mission!
+9	You sent a challenge, waiting for oppenent's reply
+10	#RWhen the value of crime point is equal or bigger than 10 you will be sent to jail
+11	Two
+12	Three
+13	Four
+14	Five
+15	Six
+16	Chi 
+17	You are free now, we suggest you to obey the game's rules, enjoy!
+18	#YSorry! Because %s of you #B[%s]#Y was expired which was deleted.
+19	In the inventory
+20	In the metarial bag
+21	On body
+22	In bank
+23	Server not responding
+24	Server full
+25	You are moving to 
+26	You need to move 
+27	You are using unidentified program, cannot move to other scene!
+28	Your freedom was ristricted, cannot teleport, %d minutes to rehabilitate!
+29	Cannot use circumstance target
+30	Cannot use city target 
+31	Server is full
+32	Server's endurance is too high
+33	Full scene target cannot response
+34	Value of this banknote is maximum #{_MONEY%d}. 
+35	Follower %s of you dedicate you %d exp point which you can receive at the councellor. 
+36	Congratulation, successfully upgrade your pet's savvy to  +1
+37	#W#{_INFOUSR%s}#c00FFFFAfter lots of efforts, upgraded the savvy of#{_INFOMSG%s}to#Y%d#c00FFFF, make your pet's aptitude increase.
+38	Upgrade failed, your pet's savvy is %d
+39	Your talking function was rehabilitated, please voluntarily obey the game's rule, enjoy!
+40	You need to be in jail for %d minutes, and deducted all received exp at the present!
+41	You need to be in jail for %d minutes, 
+42	Your number of felony was branded, before it reachs to 3 you can freely go out!
+43	#{_INFOUSR%s}#Y Probing information about your equipment and pet.
+44	Please upgrade the discipline of all seven class skill books to level 80. 
+45	#cffffcc Congratulation, your follower#W%s#cffffcc increased#G%d level#cffffcc. But the friendship between you was#G0#cffffcc, so you cannot receive the gift when they level up, interest in your follower more.
+46	Acceded a guild level %d
+47	Acceded guild is level %d, deduct half of the reward exp. 
+48	Do not accede a guild, deduct half of the reward exp.
+49	Good 
+50	Normal
+51	Bad
+52	#cffffcc Congratulation, your follwer#W%s#cffffcc increase to#Y%d level#cffffcc. %s#cffffccAnd commented that you were#Y%s#cffffcc, so beside receiving #Y%d%%#cffffcc reward exp, you gain additional #Y%d#cffffcc exp, go to councellor #RElder Nieh#cffffcc in Da Li, use Moral to exchange point.
+53	#cffffcc Announcement: #W#{_INFOUSR%s}#cffffcc taught his follwer#{_INFOUSR%s}#cffffcc increase to#Y%d level#cffffcc, court specailly award #Y%d#cffffcc exp.
+54	#cffffcc People said that, #W#{_INFOUSR%s}#cffffcc knows how to teach, follower #{_INFOUSR%s}#cffffcc increased to #Y%d level#cffffcc, and awarded by community#Y%d exp.
+55	#{_INFOUSR%s}#cffffcc for teaching follower #{_INFOUSR%s}#cffffcc upgrade to #Y%d level#cffffcc community award #Y%d#cffffcc exp.
+56	#cffffcc Announcement: #W#{_INFOUSR%s}#cffffcc taught his follwer#{_INFOUSR%s}#cffffcc increase to #Y%d level#cffffcc, and guide him to accede a guild, court specially award#Y%d#cffffcc exp.
+57	#cffffcc People said that, #W#{_INFOUSR%s}#cffffcc knows how to teach, follower #{_INFOUSR%s}#cffffcc  increased to #Y%d level#cffffcc, and guide him to accede a guild, court specially award #Y%d exp.
+58	#W#{_INFOUSR%s}#cffffcc for teaching follower #{_INFOUSR%s}#cffffcc upgrade to#Y%d#cffffcc level and guide him to accede a guild, court specially award #Y%d#cffffcc exp.
+59	#cffffccWhen the friendship in the relationship between teacher and follower is equal 1000, obtain the total exp reward.
+60	#cffffcc The friendship in the relationship between teacher and follower is not equal 1000, so the exp reward is#Y%.2f%%. 
+61	Your pet's level is higher than yours %d level so it will not receive exp anymore. 
+62	Quäi c½ chung kªt giä
+63	Excuse me, only friend relationship can get marriage.
+64	Excuse me, only marriage relationship can divorce.
+65	Excuse me, only friend relationship can worship.
+66	Excuse me, only friend can worship.
+67	Excuse me, just perform this act with your master.
+68	Excuse me,  just perform this act with your follower.
+69	Grocery store
+70	Your store's fund is 50% lower than the origin fund, please recharge, or your store will have to close.
+71	So sorry,store was closed, redundant commodities were taken away.
+72	#{_TIME%d}: #YSell #W[#R#{_ITEM%d}#W]X%d, Earn #{_MONEY%d}
+73	#{_TIME%d}: #YSell #W[#R%s#W]X%d, Earn #{_MONEY%d}
+74	#{_TIME%d}: %s#Y Import #W[#R#{_ITEM%d}#W]X%d Packages.
+75	#{_TIME%d}: %s#Y Gain #W[#R#{_ITEM%d}#W]X%d Packages.
+76	#{_TIME%d}: %s#Y Import #W[#R%s#W]X%d Packages.
+77	#{_TIME%d}: %s#Y Gain #W[#R%s#W]X%d Packages.
+78	#{_TIME%d}: %s#Y price up #Walready [#R#{_ITEM%d}#W]X%d Packages, standard price #r#{_MONEY%d}
+79	#{_TIME%d}: %s#Y price down #Walready [#R#{_ITEM%d}#W]X%d Packages, origin price #r#{_MONEY%d}
+80	#{_TIME%d}: %s#Y price up #Walready [#R%s#W]X%d Packages, standard price #r#{_MONEY%d}
+81	#{_TIME%d}: %s#Y price down#Walready[#R%s#W]X%d Packages, origin price #r #{_MONEY%d}
+82	#{_TIME%d}: %s#Y Opening #W stand number %d.
+83	#{_TIME%d}: %s#Y Closing #W stand number %d.
+84	#{_TIME%d}: %s Enter the store #Y enter the fund money#r #{_MONEY%d}
+85	#{_TIME%d}: %s Get in#Y enter interest money #r #{_MONEY%d}
+86	Welcome to my store!
+87	Illegal personal information.
+88	This item is not loaded up to your bank!
+89	Bank
+90	Illegal architecture item. 
+91	Illegal item. 
+92	Bilateral trade is disunion, cannot carry out the trade. 
+93	Cannot perform this act under protection status. 
+94	Performing too quick, need to wait.
+95	There are no banknote, cannot buy.
+96	Money and banknote reached the limitation, cannot buy anymore.
+97	Not enough silver to buy!
+98	Money and banknote are not enough, cannot buy anymore!
+99	Not enough guild point to buy!
+100	Inventory is full, cannot buy anymore!
+101	The item does not exist. 
+102	Have no banknote, cannot sell out.
+103	Having no guild to form a citadel. 
+104	Already have a citadel. 
+105	Not enough gold!
+106	Only Guild Master can form a citadel. 
+107	Your level is under 20, cannot change the PK status!
+108	Wrong security password!
+109	You are wearing outer item, cannot use skills!
+110	Your freedom is ristricted, %d to rehabilitate!
+111	Your talking function was banned for %d minutes.
+112	#RMÑc trß·ng thành?%f
+113	#RHave not found the pet as designated yet!
+114	You cannot passively cancel this buff.
+115	#YYour gold is beyond limitation, spend it. Lßu ý: Do not #Rlog out or move to other map#Y, or you will lose these beyond gold.
+116	Not enough level, cannot form a guild. 
+117	Not enough gold, cannot form a guild 
+118	Invitation failed for being under unparty status.
+119	Illegal name, cannot form a guild. 
+120	Illegal status, cannot form a guild.
+121	Illegal status, cannot change.
+122	Illegal bill, cannot change.
+123	Illegal friend news.
+124	This item has been chosen.
+125	Cannot put in my store.
+126	Item was joined.
+127	You are using unidentifed program, cannot open!
+128	Your freedom was ristricted, cannot open %d minutes to rehabilitate!
+129	Level of the pet is %d, you cannot carry at the moment.
+130	%s all put in your store
+131	%s ÐÕi chß·ng qu¥y
+132	Illegal status!
+133	Illegal store name.
+134	Correct answer, you get #{_MONEY%d} repay!
+135	Correct answer!
+136	Illegal pet name.
+137	Cannot sell with that price
+138	#{_INFOUSR%s} buy #{_INFOMSG%s} X %d, total cost #{_MONEY%d}
+139	#{_INFOUSR%s} buy pet #{_INFOMSG%s}, total cost #{_MONEY%d}
+140	Put off equiped inventory for more equipment.
+141	Put off equiped store for more equipment.
+142	You used unidentified program, cannot use items.
+143	Inventory full.
+144	#-08 %s Guild Master
+145	You sent %s guild a massage, waiting for guild to process.
+146	%s Guild Member
+147	Welcome %s, we will fight side by side.
+148	0
+149	Character's talking function was rehabilitated, voluntarily obey the game rules, enjoy!
+150	Pet receiving successful, you can let them continue giving birth.
+151	Your pet %s and %s Pet %s are joyfully romping.
+152	After %d minutes, you can take the second genaration pet back to you.
+153	Yo must %s create party and outrival to receive.
+154	Out of touch with friends in guild.
+155	Cannot find friends in guild...
+156	Guild's gold reached the limitation. 
+157	Content changed, please turn on from the beginning. 
+158	The Guild Point is beyond %d points, act performing fail.
+159	The Guild Point is under 0 point, act performing fail.
+160	The set up Guild Point is  %d points
+161	You got  %d Guild Points.
+162	You spent %d Guild Points.
+163	Please join in a guild first.
+164	Vice Guild Master, needs agreement to be Guild Master, the condition is that the Guild Master was not online for one week or more, you seems not to be the Vice Guild Master. 
+165	Act performing failed for being member of an other guild. 
+166	Being tired, cannot assign mission.
+167	Cannot find this problem on data center, please check back!
+168	#{_INFOUSR%s} #Ybuild this citadel #R#{CityBuildingName_T%d_L%d} #Ymore brick to accelerate progress +1, remain %d times of building mission to success.
+169	#{_INFOUSR%s}#Y analysed this citadel #R#{_ITEM%d} #Yso hard which make the progress up +1%d times of analysing mission to success.
+170	Guild's industry value increases to %d
+171	Guild's agriculture value increases to %d
+172	Guild's commerce value increases to %d
+173	Guild's defense value increases to %d
+174	Guild's science and technique value increases to %d
+175	Guild's expansion value increases to %d
+176	Guild's gold increases to #{_MONEY%d}
+177	#YYour Guild Point at the moment is %d points.
+178	Guild's industry value increases to %d
+179	Guild's agriculture value increases to %d
+180	Guild's commerce value increases to %d
+181	Guild's defense value increases to %d
+182	Guild's science and technique value increases to %d
+183	Guild's expansion value increases to %d
+184	Guild's gold increases to #{_MONEY%d}
+185	Guild's gold decreases to #{_MONEY%d}
+186	#YGuild Point increases %d points.
+187	#YGuild Point decreases %d points
+188	Congratulate you for succeeding in building a citadel %s guild. Use ALT+O or check and manage guild through Guild's chartacter's function interface. 
+189	Guild %s denied your suggestion.
+190	You and %s was ajar. You left %s.
+191	Your right was changed, congratulate you for being new Guild Master.
+192	Because our Guild Master was not online for a long time, Vice Guild Master #{_INFOUSR%s} assigns all the most important missions of the guild, which prove that he deserves to be new Guild Master!
+193	Because you was not online for a week, Vice Guild Master %s tried his best for the Guild's city and became new Guild Master. 
+194	#R%s #YCitadel of #R%s #YGuild, succeeded due to #R#{CityBuildingName_T0_L%d} #Yand upgraded due to #R#{CityBuildingName_T0_L%d}#Y, you guy worked so hard.
+195	The citadel's level of our Guild increased to #{CityBuildingName_T0_L%d}, level is %d, keep the effort, buid a brighter tomorrow together!
+196	This citadel is under low protection, protection fee for this time is #{_MONEY%d}
+197	This citadel is under high protection, protection fee for this time is #{_MONEY%d}
+198	#Y Our Guild level upgrading successful #R#{CityBuildingName_T%d_L%d}, #Y mission completed, you worked so hard! 
+199	#YOur citadel's analysis successful #R#{_ITEM%d}#Y. You worked so hard!
+200	Congratulation %s Your guild occupied the manor %s
+201	Congratulation %s Your guild occupied the manor %s to build up the guild city.
+202	%s citadel of %s guild run business badly, so it was closed.
+203	 Guild's mass 
+204	 Guild Master 
+205	 Vice Guild Master 
+206	 Interior Interior Officer 
+207	 Officer
+208	 Mission Officer
+209	 Trader 
+210	 Elite 
+211	For being not enough 5 online guild member for 7 days, your guild will be disbanded, if you want to reform a guild, meet Just Fan at Lou Yang (140, 95).
+212	Your guild was disbanded.
+213	The weather today is so great!
+214	Your pet is pregnant, after  %d minutes it will give a birth. 
+215	Your pet successfully gave a birth, after reproduction #Y%d hours#W go to#GSu Zhou (87, 143) #cff99ccSid Cloud#W to receive young pet, or that pet will be confiscated. plase go with#B%s#Wparty to receive. #R %d-%d-%d %d:%.2d
+216	You did not come in time, your pet had been pregnant before. I will take its livestock management.  Your sincerely. 
+217	Mông Di®n ÐÕi ÐÕo
+218	Attention: Guild %s challenged your guild in #{_TIME%d}, you will be under fighting status for 2 hours, killing opponent guild's member will not increase the crime point, but you will be punished after death.
+219	Guild %s was ready to fight our guild in sense of initiative, they are so intolerable, lets raise our guild's fame today!
+220	Our guild was so big and palatial, but there are some aggression today, my command, we will fight the guild%s, to show our prestige out! 
+221	Guild %s will take guild %s in battles, who will be the winner, wait for it! 
+222	Boom, boom, boom! The war postponing sign! All guild temporary please stop fighting, My guild and guild %was in a intense battle, we are all exhausted now so both sides decided to stop here and continue the fight tomorrow! 
+223	%s #cff0000Attention! Your guild is under challenge status, click in guild interface for more information.
+224	@*;SrvMsg;GLD:My guild's major #{_INFOUSR%s} was suddenly #{_INFOUSR%s} killed, which make others angry!
+225	@*;SrvMsg;GLD:My guild's major #{_INFOUSR%s} was suddenly #{_INFOUSR%s} by member of guild #G[%s] #Wkilled, which make others angry!
+226	#cff0000Guild massage: #c6699ff%s
+227	You have not been twinned yet, cannot get the twinning title.
+228	You used to get the twinning title, cannot change the title
+229	#{_TIME%d}: % buy materials #R#{_ITEM%d}#W]X%d with the amount of money #{_MONEY%d}
+230	Toolbar
+231	#RWelcome your materials repurchase #{_INFOMSG%s} Go to Lou Yang shop  [232,155]to check
+232	Please upgrade the discipline of all book to 90
+233	Please upgrade the discipline of all book to 100
+234	Please upgrade the discipline of all book to 110
+235	Please upgrade the discipline of all book to 120
+236	Please upgrade the discipline of all book to 130
+237	#{safeboxmsg1}
+238	Attention#r protected treasure box will be opened in %d days #{safeboxmsg2}
+239	Attention#r protected treasure box will be opened in %d hours %d minutes #{safeboxmsg3}
+240	#{_INFOUSR%s} doing the trading mission, by people of #G[%s]#W named #{_INFOUSR%s} killed, robbed all the gold, it's so discomfort!
+241	#{_INFOUSR%s} doing the trading mission suddenly be #{_INFOUSR%s} killed and robbed. That makes others angry!
+242	You are a stock draw, cannot exchange!
+243	League's name was already exist, act performing failed, your gold was repaid!
+244	Level is smaller %d, cannot transform
+245	Location change successful
+246	Change failed, need 24 hours from the last change
+247	Illegal job's name
+248	Officer
+249	Newbie
+250	Ensign
+251	Lieutenant
+252	Captain
+253	Major
+254	3rd Colonel
+255	2nd Colonel
+256	1st Colonel
+257	Brigadier General
+258	Major General
+259	Marshal
+260	Title ordaining failed
+261	Cannot ordain the title
+262	Title change succesful, please take Gold copybook to Lou Yang(200,103) to get new title.
+263	Title change succesful, please take Gold copybook to #YLou Yang(200,103) #GMinister of Song #R to get new title.
+264	#YGuilf upgrade successful #R#{CityBuildingName_T%d_L%d},#Ybuilding mission completed, we succeeded!
+265	Because you were injured #{_ITEM%d} was stolen.
+266	Because you were injured #{_ITEM%d} decrased the number of mend times to 0
+267	Because you were injured #{_ITEM%d} lock was stolen
+268	Because you were injured #{_ITEM%d} lock was stolen, number of mend times decrease 1 point
+269	Because you were injured #{_ITEM%d} was stolen
+270	Because you were injured r¤t n£ng #{_ITEM%d} was stolen
+271	Because you were injured r¤t n£ng #{_ITEM%d} lock was stolen
+272	Because you were injured r¤t n£ng #{_ITEM%d} was stolen
+273	Illegal citadel name.
+274	#I New guild%s #I formed by %s #I 
+275	Your title #Y%s#W is on using time, system was rehabilitated!
+276	You were %s slained
+277	Congratulation, citadel % of your guild% was formed successfully. You can run construction, analysis, trading city.
+278	You do not have right to change.
+279	Mend failed, expired data.
+280	Change successful.
+281	Assign the develope mission.
+282	Decreased for jobs.
+283	Cannot adjust for this mission.
+284	NgoÕch ngoÕi hoÕch bang c¯ng
+285	NgoÕch ngoÕi hoÕch ð¡c kim ti«n
+286	Tùng tß·ng l® trung kh¤u tr× bang c¯ng
+287	Tr× giäi thß·ng
+288	Can manage jobs only 1 time per 24 hours.
+289	Foreclose the guild.
+290	Not Being member of the league.
+291	Successfully deported from the league
+292	Only Champion can do this.
+293	Champion cannot dismiss.
+294	Status cannot transmit.
+295	#{_INFOUSR%s} promotion #{_INFOMSG%s} X %d plus tokens fee.
+296	This section does not trade item.
+297	Immutable tokens.
+298	You are under fighting status, cannot move.
+299	Convoying status.
+300	#PAnnouncement, Guild fight! Guild #H%s#P challenged guild #H%s#P in a mortal battle, who win be the winner today #H%s#P , wait for the answer! 
+301	#IGuild Announcement ! #H%s#I was so egotistic, that dare to challenge us,  we desired all you guild member quickly assemble #H%s#I to fight for our prestige! 
+302	#H%s#P to fight #H%s#P challenge, prepare for battle? Unpredictable battlefield. All heroes, quickly get in the Thunderdome battlefiled!
+303	#H%s#P denied the challenge of guild #H%s#P. May the guild  #H%s#P be the champion in life?
+304	#IWe accept the challenge of guild #H%s#I, you guy can visit Lou Yang - Andy Chou(265,50) to take the battlefield.
+305	#PIn the last battle, #H%s#P with high fighting spririt, hit #H%s#P and be the winner. Come to Lou Yang and cheer them!
+306	#PIn the last battle, #H%s#Pwas slained by guild #H%s#P.
+307	You left the guild, your title #Y%s#W was invalid.
+308	Your guild have no right to own Lou Yang city, the title #Y%s#W invalid.
+309	#{_INFOUSR%s} pet#{_INFOMSG%s}, plus fee%d tokens.
